@@ -25,6 +25,7 @@
 	<tr>
 		<th>Website</th>
 		<th>Category</th>
+		<th>Where</th>
 	</tr>
 	<?php include "database.php";?>
 	</table>
