@@ -17,7 +17,7 @@ $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {
     while($row = mysqli_fetch_assoc($result)) {  	
-        echo "<tr><td><a href='" . $row["websitelink"] . "'> " . $row["name"] . " </a></td><td>" .$row["category"] . "</td></tr>";
+        echo "<tr><td><a href='" . $row["websitelink"] . "'> " . $row["name"] . " </a></td><td>" .$row["category"] . "</td><td>" .$row["country"] . "</td></tr>";
     }
 } else {
     echo "<p>error</p>";
